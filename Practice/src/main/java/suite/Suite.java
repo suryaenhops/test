@@ -25,7 +25,7 @@ public class Suite {
 	    public void addTest(String testname, String paramName, String paramValue, String className) {
 	        Test test = new Test(testname);
 	        test.addParam(paramName, paramValue);
-	        Pattern.compile(",").splitAsStream(className).forEach(test::addClass);
+	       // Pattern.compile(",").splitAsStream(className).forEach(test::addClass);
 	        this.tests.add(test);
 	    }
 
