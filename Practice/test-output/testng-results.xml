@@ -1,17 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="225646" started-at="2019-06-08T11:52:21Z" finished-at="2019-06-08T11:56:07Z">
+  <suite name="TesTautomationGuru" duration-ms="189565" started-at="2019-06-08T13:22:19Z" finished-at="2019-06-08T13:25:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="225646" started-at="2019-06-08T11:52:21Z" finished-at="2019-06-08T11:56:07Z">
-      <class name="TestCases.ControlSheetRunner">
-        <test-method status="PASS" signature="main1()[pri:0, instance:TestCases.ControlSheetRunner@cb5822]" name="main1" duration-ms="225601" started-at="2019-06-08T11:52:21Z" finished-at="2019-06-08T11:56:07Z">
+    <test name="Verify broken links in pre login and post login" duration-ms="24546" started-at="2019-06-08T13:22:19Z" finished-at="2019-06-08T13:22:44Z">
+      <class name="TestCases.LoginWithValidOTP">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginWithValidOTP@69e153c5]" name="startBrowser" is-config="true" duration-ms="6631" started-at="2019-06-08T13:22:19Z" finished-at="2019-06-08T13:22:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main1 -->
-      </class> <!-- TestCases.ControlSheetRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.LoginWithValidOTP@69e153c5]" name="loginTest" duration-ms="17081" started-at="2019-06-08T13:22:26Z" finished-at="2019-06-08T13:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closedDriver()[pri:0, instance:TestCases.LoginWithValidOTP@69e153c5]" name="closedDriver" is-config="true" duration-ms="808" started-at="2019-06-08T13:22:43Z" finished-at="2019-06-08T13:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.LoginWithValidOTP -->
+    </test> <!-- Verify broken links in pre login and post login -->
+    <test name="Verify pre login broken links " duration-ms="23646" started-at="2019-06-08T13:22:44Z" finished-at="2019-06-08T13:23:08Z">
+      <class name="TestCases.LoginWithValidOTP">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginWithValidOTP@4be29ed9]" name="startBrowser" is-config="true" duration-ms="6005" started-at="2019-06-08T13:22:44Z" finished-at="2019-06-08T13:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.LoginWithValidOTP@4be29ed9]" name="loginTest" duration-ms="16831" started-at="2019-06-08T13:22:50Z" finished-at="2019-06-08T13:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closedDriver()[pri:0, instance:TestCases.LoginWithValidOTP@4be29ed9]" name="closedDriver" is-config="true" duration-ms="809" started-at="2019-06-08T13:23:07Z" finished-at="2019-06-08T13:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.LoginWithValidOTP -->
+    </test> <!-- Verify pre login broken links  -->
+    <test name="Verify broken links in post login with amber customer" duration-ms="23289" started-at="2019-06-08T13:23:08Z" finished-at="2019-06-08T13:23:31Z">
+      <class name="TestCases.LoginWithValidOTP">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginWithValidOTP@712625fd]" name="startBrowser" is-config="true" duration-ms="5587" started-at="2019-06-08T13:23:08Z" finished-at="2019-06-08T13:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.LoginWithValidOTP@712625fd]" name="loginTest" duration-ms="16871" started-at="2019-06-08T13:23:13Z" finished-at="2019-06-08T13:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closedDriver()[pri:0, instance:TestCases.LoginWithValidOTP@712625fd]" name="closedDriver" is-config="true" duration-ms="831" started-at="2019-06-08T13:23:30Z" finished-at="2019-06-08T13:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.LoginWithValidOTP -->
+    </test> <!-- Verify broken links in post login with amber customer -->
+    <test name="Verify post login broken with red customer" duration-ms="23964" started-at="2019-06-08T13:23:31Z" finished-at="2019-06-08T13:23:55Z">
+      <class name="TestCases.LoginWithValidOTP">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginWithValidOTP@17f9d882]" name="startBrowser" is-config="true" duration-ms="6280" started-at="2019-06-08T13:23:31Z" finished-at="2019-06-08T13:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.LoginWithValidOTP@17f9d882]" name="loginTest" duration-ms="16864" started-at="2019-06-08T13:23:37Z" finished-at="2019-06-08T13:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closedDriver()[pri:0, instance:TestCases.LoginWithValidOTP@17f9d882]" name="closedDriver" is-config="true" duration-ms="820" started-at="2019-06-08T13:23:54Z" finished-at="2019-06-08T13:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.LoginWithValidOTP -->
+    </test> <!-- Verify post login broken with red customer -->
+    <test name="Verify post login broken with green customer" duration-ms="23367" started-at="2019-06-08T13:23:55Z" finished-at="2019-06-08T13:24:18Z">
+      <class name="TestCases.LoginWithValidOTP">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginWithValidOTP@1349883]" name="startBrowser" is-config="true" duration-ms="5763" started-at="2019-06-08T13:23:55Z" finished-at="2019-06-08T13:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.LoginWithValidOTP@1349883]" name="loginTest" duration-ms="16779" started-at="2019-06-08T13:24:01Z" finished-at="2019-06-08T13:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closedDriver()[pri:0, instance:TestCases.LoginWithValidOTP@1349883]" name="closedDriver" is-config="true" duration-ms="824" started-at="2019-06-08T13:24:18Z" finished-at="2019-06-08T13:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.LoginWithValidOTP -->
+    </test> <!-- Verify post login broken with green customer -->
+    <test name="Verify user is able to login" duration-ms="24101" started-at="2019-06-08T13:24:18Z" finished-at="2019-06-08T13:24:42Z">
+      <class name="TestCases.LoginWithValidOTP">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginWithValidOTP@35dab4eb]" name="startBrowser" is-config="true" duration-ms="6005" started-at="2019-06-08T13:24:18Z" finished-at="2019-06-08T13:24:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.LoginWithValidOTP@35dab4eb]" name="loginTest" duration-ms="17021" started-at="2019-06-08T13:24:24Z" finished-at="2019-06-08T13:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closedDriver()[pri:0, instance:TestCases.LoginWithValidOTP@35dab4eb]" name="closedDriver" is-config="true" duration-ms="1074" started-at="2019-06-08T13:24:41Z" finished-at="2019-06-08T13:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.LoginWithValidOTP -->
+    </test> <!-- Verify user is able to login -->
+    <test name="Verify user is able to login with valid OTP" duration-ms="23390" started-at="2019-06-08T13:24:42Z" finished-at="2019-06-08T13:25:06Z">
+      <class name="TestCases.LoginWithValidOTP">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginWithValidOTP@5afa3c9]" name="startBrowser" is-config="true" duration-ms="5745" started-at="2019-06-08T13:24:42Z" finished-at="2019-06-08T13:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.LoginWithValidOTP@5afa3c9]" name="loginTest" duration-ms="16843" started-at="2019-06-08T13:24:48Z" finished-at="2019-06-08T13:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closedDriver()[pri:0, instance:TestCases.LoginWithValidOTP@5afa3c9]" name="closedDriver" is-config="true" duration-ms="801" started-at="2019-06-08T13:25:05Z" finished-at="2019-06-08T13:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.LoginWithValidOTP -->
+    </test> <!-- Verify user is able to login with valid OTP -->
+    <test name="Verify user is able to login with invalid OTP" duration-ms="23167" started-at="2019-06-08T13:25:06Z" finished-at="2019-06-08T13:25:29Z">
+      <class name="TestCases.LoginWithValidOTP">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestCases.LoginWithValidOTP@48075da3]" name="startBrowser" is-config="true" duration-ms="5604" started-at="2019-06-08T13:25:06Z" finished-at="2019-06-08T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.LoginWithValidOTP@48075da3]" name="loginTest" duration-ms="16751" started-at="2019-06-08T13:25:12Z" finished-at="2019-06-08T13:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closedDriver()[pri:0, instance:TestCases.LoginWithValidOTP@48075da3]" name="closedDriver" is-config="true" duration-ms="812" started-at="2019-06-08T13:25:28Z" finished-at="2019-06-08T13:25:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedDriver -->
+      </class> <!-- TestCases.LoginWithValidOTP -->
+    </test> <!-- Verify user is able to login with invalid OTP -->
+  </suite> <!-- TesTautomationGuru -->
 </testng-results>

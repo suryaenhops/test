@@ -16,7 +16,7 @@ public class TestBase {
 	public static void startBrowser(){		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/main/resources/drivers/chromedriver.exe");
 		driver= new ChromeDriver();
-		driver.get("https://qa-cmol1.creditmantri.in/");		
+		driver.get("https://www.creditmantri.com/");		
 	}
 	
 	

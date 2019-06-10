@@ -11,8 +11,8 @@ import suite.XLSReader;
 
 public class ControlSheetRunner {
 	
-	@Test
-	public static void main1() {
+	
+	public static void main(String args[]) {
 	
 		XLSReader suite = new XLSReader("./AutomationControlSheet.xlsx");
 		suite.getTests("select * from TestCase where Active='y'");
