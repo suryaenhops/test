@@ -1,5 +1,7 @@
 package Base;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -16,7 +18,9 @@ public class TestBase {
 	public static void startBrowser(){		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/main/resources/drivers/chromedriver.exe");
 		driver= new ChromeDriver();
-		driver.get("https://www.creditmantri.com/");		
+		driver.get("https://www.creditmantri.com/");
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
 	}
 	
 	
